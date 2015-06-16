@@ -1,8 +1,9 @@
 __author__ = 'SU915198'
 
 
-from DS.FibSeries import fib
+from DS.FibSeries import*
 
 
-val = fib(9)
-print(val)
+val = MyFib()
+v = val.fib(5)
+print(v)

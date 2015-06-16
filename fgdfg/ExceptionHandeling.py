@@ -24,6 +24,7 @@ class ValueIsTooLargeError(Error):
 	"""
 	Exception will raise when value is too large
 	"""
+	
 	pass
 
 

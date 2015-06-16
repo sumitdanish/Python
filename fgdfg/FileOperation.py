@@ -1,5 +1,3 @@
-from Tools.Scripts.treesync import create_files
-
 __author__ = 'SUMMIT'
 
 import sys
