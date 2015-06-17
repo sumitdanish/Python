@@ -85,16 +85,18 @@ class CList:
 
 if __name__ == "__main__":
 	c_list = CList()
+	"""
+	
+	list_file = open(os.path.relpath("list.txt"))
+	 l_read = list_file.readline()
+	ele_list = [l_data.strip("-->") for l_data in l_read]
+	for l in list_file.read():
+	print (l)
 
-	#list_file = open(os.path.relpath("list.txt"))
-	# l_read = list_file.readline()
-	#ele_list = [l_data.strip("-->") for l_data in l_read]
-	#for l in list_file.read():
-	#print (l)
-
-	#c_list.create_my_list1(1)
-	#c_list.create_my_list1(2)
-	#c_list.create_my_list1(3)
-	#c_list.create_my_list1(4)
-	#c_list.create_my_list1(5)
-	#c_list.print_m_list
+	c_list.create_my_list1(1)
+	c_list.create_my_list1(2)
+	c_list.create_my_list1(3)
+	c_list.create_my_list1(4)
+	c_list.create_my_list1(5)
+	"""
+	c_list.print_m_list
